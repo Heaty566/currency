@@ -1,0 +1,19 @@
+{
+  "name": "currency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/node": "^7.6.1"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "node-sass": "^4.12.0"
+  }
+}

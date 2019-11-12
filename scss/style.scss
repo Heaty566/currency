@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  outline: none;
+  color: #17242a;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+  width: 100%;
+  height: 100vh;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currency-card{
+  border-radius: 5px;
+  width: 30rem;
+  height: auto;
+  background-color: #feffff;
+  h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 2em;
+  }
+  label{
+    margin: 10px 10px;
+    display: inline-block;
+    width: 20em;
+    font-size: 1rem;
+  }
+  select{
+    width: 7em;
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+  }
+  input[type="text"]{
+    width: 7em;
+    text-align: right;
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+
+  }
+  input[type="submit"]{
+    width: 10rem;
+  }
+
+  section{
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  p{
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    font-size: 2rem;
+  }
+  .btn{
+    text-align: center;
+    button{
+      width: 80%;
+      height: 2rem;
+      outline: none;
+      border-radius: 5px;
+      border: none;
+      &:active{
+        background-color: #17242a;
+        color: #feffff;
+      }
+    }
+  }
+
+  #date{
+    text-align: right;
+    font-size: 1rem;
+    opacity: 0.6;
+  }
+}

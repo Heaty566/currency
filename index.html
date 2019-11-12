@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./src/main.js" type="text/javascript" rel="script"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="currency-card">
+            <h1>Currency Converter</h1>
+
+            <section>
+                <label for="currency-from">Your current destination/ currency:</label>
+                <select id="currency-from">
+                    <option value="USD">USD</option>
+                </select>
+            </section>
+            <section>
+                <label for="currency-to">Destination/ currency will be exchanged:</label>
+                <select id="currency-to">
+                    <option value="EUR">EUR</option>
+                </select>
+            </section>
+
+            <section>
+                <label for="amount">How much would you like to exchange?</label>
+                <input type="text" value="" id="amount">
+            </section>
+
+            <p id="result">00</p>
+            <div class="btn">
+                <button id="converter">converter</button>
+            </div>
+
+            <p id="date">00</p>
+
+        </div>
+    </div>
+</body>
+</html>
